@@ -1,0 +1,12 @@
+{
+  "signal": [
+    {"name": "CLK", "wave": "0.....1.......", "node": "......b"},
+    {"name": "DATA", "wave": "22224......22.", "data": ["X1", "X2", "X3", "X4","D1", "X5","X6"], "node": "....a......c"}
+  ],
+  "edge": [
+    "a~>b t<sub>su</sub> (Setup Time)", "b~>c t<sub>h</sub> (Hold Time)"
+  ],
+  "head": {
+    "text": "建立时间与保持时间图"
+  }
+}
